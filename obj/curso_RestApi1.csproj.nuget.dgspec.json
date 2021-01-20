@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj": {}
+    "c:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj": {
+    "c:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj",
+        "projectUniqueName": "c:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj",
         "projectName": "curso_RestApi1",
-        "projectPath": "C:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj",
+        "projectPath": "c:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Curso Restful API\\curso_RestApi1\\obj\\",
+        "outputPath": "c:\\Projetos\\Curso Restful API\\curso_RestApi1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
