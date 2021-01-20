@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace curso_RestApi1.Controllers
@@ -12,9 +8,15 @@ namespace curso_RestApi1.Controllers
     public class PersonController : Controller
     {
         private readonly ILogger<PersonController> _logger;
-        public PersonController(ILogger logger)
+        public PersonController(ILogger<PersonController> logger)
         {
-            _looger = logger;
+            _logger = logger;
+        }
+
+        [HttpGet("{firstName}/{lastName}")]
+        public IActionResult Get(string firstName, string lastName)
+        {
+            return BadRequest("Invalid Input");
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YJTLiHKy2MFc3IwykE3cbr/R8zk2V2iiQU9JzgUfaXR1YngvfuXcHDIhz05wSMv0lbJbraRh5ZusZ9mKk5tr4g==",
+  "dgSpecHash": "V0zWZKyYIS+BAv3V3FUHtogmNUJe9T2Ndv/ZA4dE4YxqsbjzkUdTQCFU9U9ox5Q0ayDeCLC5HQeO+OGDlICybQ==",
   "success": true,
-  "projectFilePath": "c:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj",
+  "projectFilePath": "C:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
