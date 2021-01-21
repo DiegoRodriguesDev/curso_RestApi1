@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bgPWsK21IR9HXo8iFOV+byNd5TEeX/1j2EWTr0gQJKXAdoled4QTcXP6C8O2UgDvLhEe3LnLPsW7rwzu+pKqZA==",
+  "dgSpecHash": "ID1aUkR0uYjvSy9KCe/Qp90RDQNGzWO0B8V2QpWT6MlnPCAwYTInCDizmsxeyY3r/wr/DE9O81aI4GmkB4ZL4w==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Curso Restful API\\curso_RestApi1\\curso_RestApi1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.2.0\\microsoft.aspnetcore.mvc.versioning.4.2.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

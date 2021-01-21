@@ -5,8 +5,9 @@ using Microsoft.Extensions.Logging;
 
 namespace curso_RestApi1.Controllers
 {
+    [ApiVersion("1")]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class PersonController : Controller
     {
         private readonly ILogger<PersonController> _logger;
