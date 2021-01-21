@@ -54,7 +54,7 @@ namespace curso_RestApi1.Controllers
             return Ok(_personService.Update(person));
         }
 
-        [HttpDelete] 
+        [HttpDelete("{id}")] 
         public IActionResult Delete(long id)
         {
             _personService.Delete(id);
