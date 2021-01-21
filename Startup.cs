@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using curso_RestApi1.src.Services;
+using curso_RestApi1.src.Services.Implementations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,10 @@ namespace curso_RestApi1
         {
 
             services.AddControllers();
+
+            // Dependency Injection
+            services.AddScoped<IPersonService, PersonServiceImplementation>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "curso_RestApi1", Version = "v1" });

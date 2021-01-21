@@ -34,3 +34,4 @@ C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\ref\curso_RestApi1.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.pdb
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.genruntimeconfig.cache
+C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.csprojAssemblyReference.cache
