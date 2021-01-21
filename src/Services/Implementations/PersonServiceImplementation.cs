@@ -26,7 +26,7 @@ namespace curso_RestApi1.src.Services.Implementations
             for (int i = 0; i < 8; i++)
             {
                 Person person = MockPerson(i);
-                persons.Add(person)
+                persons.Add(person);
             }
             return persons;
         }

@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 namespace curso_RestApi1.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PersonController : Controller
     {
         private readonly ILogger<PersonController> _logger;
