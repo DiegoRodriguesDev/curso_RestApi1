@@ -1,3 +1,9 @@
+C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.AssemblyInfoInputs.cache
+C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.AssemblyInfo.cs
+C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.csproj.CoreCompileInputs.cache
+C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\appsettings.Development.json
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\appsettings.json
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\curso_RestApi1.exe
@@ -9,6 +15,7 @@ C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\ref\curso_RestApi1
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\curso_RestApi1.pdb
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -29,12 +36,6 @@ C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Swashbuckle.AspNet
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.csprojAssemblyReference.cache
-C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.AssemblyInfoInputs.cache
-C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.AssemblyInfo.cs
-C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.csproj.CoreCompileInputs.cache
-C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.MvcApplicationPartsAssemblyInfo.cs
-C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\staticwebassets\curso_RestApi1.StaticWebAssets.Manifest.cache
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\staticwebassets\curso_RestApi1.StaticWebAssets.xml
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\scopedcss\bundle\curso_RestApi1.styles.css
@@ -44,4 +45,3 @@ C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\ref\curso_RestApi1.dll
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.pdb
 C:\Projetos\Curso Restful API\curso_RestApi1\obj\Debug\net5.0\curso_RestApi1.genruntimeconfig.cache
-C:\Projetos\Curso Restful API\curso_RestApi1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll

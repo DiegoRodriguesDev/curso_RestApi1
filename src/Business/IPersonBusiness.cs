@@ -1,12 +1,9 @@
 ﻿using curso_RestApi1.src.Model;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace curso_RestApi1.src.Services
+namespace curso_RestApi1.src.Business
 {
-    public interface IPersonService
+    public interface IPersonBusiness
     {
         Person Create(Person person);
         Person FindById(long id);

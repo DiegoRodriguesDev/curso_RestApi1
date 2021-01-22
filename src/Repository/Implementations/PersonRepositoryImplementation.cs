@@ -4,13 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace curso_RestApi1.src.Services.Implementations
+namespace curso_RestApi1.src.Repository.Implementations
 {
-    public class PersonServiceImplementation : IPersonService
+    public class PersonRepositoryImplementation : IPersonRepository
     {
         private MySqlContext _context;
 
-        public PersonServiceImplementation(MySqlContext context)
+        public PersonRepositoryImplementation(MySqlContext context)
         {
             _context = context;
         }
@@ -43,7 +43,7 @@ namespace curso_RestApi1.src.Services.Implementations
         {
             if (!Exists(person.Id)) return new Person();
             var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(person.Id));
-            if (result != null) 
+            if (result != null)
             {
                 try
                 {
@@ -76,7 +76,7 @@ namespace curso_RestApi1.src.Services.Implementations
             }
         }
 
-        private bool Exists(long id)
+        public bool Exists(long id)
         {
             return _context.Persons.Any(person => person.Id.Equals(id));
         }

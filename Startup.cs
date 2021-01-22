@@ -1,6 +1,6 @@
 using curso_RestApi1.src.Model.Context;
-using curso_RestApi1.src.Services;
-using curso_RestApi1.src.Services.Implementations;
+using curso_RestApi1.src.Business;
+using curso_RestApi1.src.Business.Implementations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using curso_RestApi1.src.Repository.Implementations;
+using curso_RestApi1.src.Repository;
 
 namespace curso_RestApi1
 {
@@ -32,7 +34,8 @@ namespace curso_RestApi1
             services.AddApiVersioning();
             
             // Dependency Injection
-            services.AddScoped<IPersonService, PersonServiceImplementation>();
+            services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
+            services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
 
             services.AddSwaggerGen(c =>
             {

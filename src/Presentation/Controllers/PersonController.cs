@@ -1,5 +1,5 @@
-﻿using curso_RestApi1.src.Model;
-using curso_RestApi1.src.Services;
+﻿using curso_RestApi1.src.Business;
+using curso_RestApi1.src.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -11,23 +11,23 @@ namespace curso_RestApi1.Controllers
     public class PersonController : Controller
     {
         private readonly ILogger<PersonController> _logger;
-        private IPersonService _personService;
-        public PersonController(ILogger<PersonController> logger, IPersonService personService)
+        private IPersonBusiness _personBusiness;
+        public PersonController(ILogger<PersonController> logger, IPersonBusiness personBusiness)
         {
             _logger = logger;
-            _personService = personService;
+            _personBusiness = personBusiness;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_personService.FindAll());
+            return Ok(_personBusiness.FindAll());
         }
 
         [HttpGet("{id}")]
         public IActionResult Get(long id)
         {
-            var person = _personService.FindById(id);
+            var person = _personBusiness.FindById(id);
             if (person == null)
             {
                 return NotFound();
@@ -42,7 +42,7 @@ namespace curso_RestApi1.Controllers
             {
                 return BadRequest();
             }
-            return Ok(_personService.Create(person));
+            return Ok(_personBusiness.Create(person));
         }
 
         [HttpPut]
@@ -52,13 +52,13 @@ namespace curso_RestApi1.Controllers
             {
                 return BadRequest();
             }
-            return Ok(_personService.Update(person));
+            return Ok(_personBusiness.Update(person));
         }
 
         [HttpDelete("{id}")] 
         public IActionResult Delete(long id)
         {
-            _personService.Delete(id);
+            _personBusiness.Delete(id);
             return NoContent();
         }
     }
